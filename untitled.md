@@ -150,28 +150,14 @@ Cluster analysis is a statistical technique to group a given population in to cl
 
 There are two famous clustering procedures: hierarchical and k-means clustering. Both are used in the analysis.
 
-We used the following code, based on the following resources:
+We used the following code:
+- K-Means Cluster Analysis `fit <- kmeans(mydata, 5) # 5 cluster solution`
+- Ward Hierarchical Clustering `fit <- hclust(d, method="ward") -> plot(fit) # display dendogram -> rect.hclust(fit, k=5, border="red") `
 
+The code was based on the following resources:
 - [STHDA: Cluster analysis, accessed April 2016](http://www.sthda.com/english/wiki/cluster-analysis-in-r-unsupervised-machine-learning)
 - [Ecology lab Univ Montana SU: Cluster analysis tutorial, accessed April 2016](http://ecology.msu.montana.edu/labdsv/R/labs/lab13/lab13.html)
 - [Stat lab Univ Berkeley: Cluster analysis tutorial, accessed April 2016](http://www.stat.berkeley.edu/~s133/Cluster2a.html)
-
-
-# K-Means Cluster Analysis
-fit <- kmeans(mydata, 5) # 5 cluster solution
-# get cluster means
-aggregate(mydata,by=list(fit$cluster),FUN=mean)
-# append cluster assignment
-mydata <- data.frame(mydata, fit$cluster) 
-
-# Ward Hierarchical Clustering
-d <- dist(mydata, method = "euclidean") # distance matrix
-fit <- hclust(d, method="ward")
-plot(fit) # display dendogram
-groups <- cutree(fit, k=5) # cut tree into 5 clusters
-# draw dendogram with red borders around the 5 clusters
-rect.hclust(fit, k=5, border="red") 
-
 
 ### Principal component analysis
 
@@ -181,25 +167,12 @@ Principal component analysis (PCA) is generally used to reduce the number of ori
 2. factor loading: justifies the position of given variables in to axis.
 
 
-We used the following code which was developed from the following resources:
+We used the following code `fit <- princomp(mydata, cor=TRUE), summary(fit), loadings(fit), plot(fit,type="lines"), fit$scores, biplot(fit)`, which was developed from the following resources:
 
 - [Quick-R blog](http://www.statmethods.net/advstats/factor.html)
 - [Analytics Vidhya: Practical Guide to Principal Component Analysis (PCA) in R & Python](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
 - [Coghlan, A., Little Book of R for Multivariate Analysis, Sanger Institute , accessed April 2016](http://little-book-of-r-for-multivariate-analysis.readthedocs.io/en/latest/index.html)
 - [Holand, SM., 2008, Principal components analysis (PCA) in R](www2.stat.unibo.it/montanari/Didattica/.../PCA_lab1.pdf)
-
-
-```
-# Pricipal Components Analysis
-# entering raw data and extracting PCs
-# from the correlation matrix
-fit <- princomp(mydata, cor=TRUE)
-summary(fit) # print variance accounted for
-loadings(fit) # pc loadings
-plot(fit,type="lines") # scree plot
-fit$scores # the principal components
-biplot(fit) 
-```
 
 ### Multiple regression
 
