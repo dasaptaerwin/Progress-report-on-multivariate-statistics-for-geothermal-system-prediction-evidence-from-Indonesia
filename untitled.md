@@ -156,7 +156,7 @@ We used the following code, based on the following resources:
 - [Ecology lab Univ Montana SU: Cluster analysis tutorial, accessed April 2016](http://ecology.msu.montana.edu/labdsv/R/labs/lab13/lab13.html)
 - [Stat lab Univ Berkeley: Cluster analysis tutorial, accessed April 2016](http://www.stat.berkeley.edu/~s133/Cluster2a.html)
 
-``
+`
 # K-Means Cluster Analysis
 fit <- kmeans(mydata, 5) # 5 cluster solution
 # get cluster means
@@ -171,7 +171,7 @@ plot(fit) # display dendogram
 groups <- cutree(fit, k=5) # cut tree into 5 clusters
 # draw dendogram with red borders around the 5 clusters
 rect.hclust(fit, k=5, border="red") 
-``
+`
 
 ### Principal component analysis
 
