@@ -1,3 +1,11 @@
+Authors: 
+- Prihadi Sumintadireja, 
+- Dasapta Erwin Irawan, 
+- N. Rina Herdianita, 
+- Yuano Rezky, 
+- Anggita Agustin, and
+- Ali Lukman
+
 # Introduction
 
 The following project were set up to try out the application of R to help us classify hot water samples based on their hydrochemical properties. The samples used in this activity are from all over Indonesia. But we try to choose locations with distinct geological character. We need to find out if this open source statistical package can bring out the uniqueness and use it to classify the water samples.
