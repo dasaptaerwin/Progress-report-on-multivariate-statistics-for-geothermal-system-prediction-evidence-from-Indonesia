@@ -1,1 +1,1 @@
-Multivar statistics on geothermal hydrochemistry: a progress report
+Progress report on multivariate statistics for geothermal system prediction: evidence from Indonesia 
