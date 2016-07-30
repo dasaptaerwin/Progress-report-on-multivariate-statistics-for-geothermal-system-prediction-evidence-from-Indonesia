@@ -188,48 +188,16 @@ We used the following code as developed from the following references:
 - Gio, PU. and Irawan, DE., 2016, Belajar Statistika dengan R: disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
 - Gio, PU. and Rosmaini, E., 2016, Belajar Olah Data dengan SPSS, Minitab, R,  Microsoft Excel, EViews, LISREL, Amos, dan SmartPLS, disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
 
-
-```
-# Multiple Linear Regression Example
-fit <- lm(y ~ x1 + x2 + x3, data=mydata)
-summary(fit) # show results
-
-# Other useful functions
-coefficients(fit) # model coefficients
-confint(fit, level=0.95) # CIs for model parameters
-fitted(fit) # predicted values
-residuals(fit) # residuals
-anova(fit) # anova table
-vcov(fit) # covariance matrix for model parameters
-influence(fit) # regression diagnostics 
-
-# diagnostic plots
-layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
-plot(fit)
-
-# compare models
-fit1 <- lm(y ~ x1 + x2 + x3 + x4, data=mydata)
-fit2 <- lm(y ~ x1 + x2)
-anova(fit1, fit2) 
-
-# Stepwise Regression
-library(MASS)
-fit <- lm(y~x1+x2+x3,data=mydata)
-step <- stepAIC(fit, direction="both")
-step$anova # display results 
-
-# Calculate Relative Importance for Each Predictor
-library(relaimpo)
-calc.relimp(fit,type=c("lmg","last","first","pratt"),
-   rela=TRUE)
-
-# Bootstrap Measures of Relative Importance (1000 samples)
-boot <- boot.relimp(fit, b = 1000, type = c("lmg",
-  "last", "first", "pratt"), rank = TRUE,
-  diff = TRUE, rela = TRUE)
-booteval.relimp(boot) # print result
-plot(booteval.relimp(boot,sort=TRUE)) # plot result 
-```
+- 1fit <- lm(y ~ x1 + x2 + x3, data=mydata)`
+- `anova(fit)`, 
+- `vcov(fit)`, 
+- `influence(fit)`, 
+- `anova(fit1, fit2)`, 
+- `step <- stepAIC(fit, direction="both")`,
+- `calc.relimp(fit,type=c("lmg","last","first","pratt"), rela=TRUE)`,
+- `boot <- boot.relimp(fit, b = 1000, type = c("lmg", "last", "first", "pratt"), rank = TRUE, diff = TRUE, rela = TRUE)`,
+- `booteval.relimp(boot)`,
+- `plot(booteval.relimp(boot,sort=TRUE))`
 
 # Publications
 
