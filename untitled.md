@@ -179,16 +179,9 @@ We used the following code `fit <- princomp(mydata, cor=TRUE), summary(fit), loa
 Multiple linear regression is a statictical technique in form of linear equation, describing relationships between dependent and independent variable. In the math formula, we also can identify dependant variables contributing major control to the dataset and less control. The linear equation then will be used in predictions (Cite: Ugi and Irawan, 2016).  
 
 
-We used the following code as developed from the following references:
+We used the following code,
 
-- [Quick-R blog](http://www.statmethods.net/stats/regression.html)
-- [Rego, F., 2015, Multiple Regression Analysis in R - First Steps](https://rstudio-pubs-static.s3.amazonaws.com/65641_88a692252c6c4f2ab279d115e59e6767.html)
-- [Irawan, DE. and Gio, PU., 2016, R for beginners, online book, doi: 10.5281/zenodo.45628](https://github.com/dasaptaerwin/R-for-beginners)
-- [Classifying hot water chemistry: Application of MULTIVARIATE STATISTICS - R code](http://dx.doi.org/10.5281/zenodo.45629)
-- Gio, PU. and Irawan, DE., 2016, Belajar Statistika dengan R: disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
-- Gio, PU. and Rosmaini, E., 2016, Belajar Olah Data dengan SPSS, Minitab, R,  Microsoft Excel, EViews, LISREL, Amos, dan SmartPLS, disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
-
-- 1fit <- lm(y ~ x1 + x2 + x3, data=mydata)`
+- `fit <- lm(y ~ x1 + x2 + x3, data=mydata)`
 - `anova(fit)`, 
 - `vcov(fit)`, 
 - `influence(fit)`, 
@@ -198,6 +191,17 @@ We used the following code as developed from the following references:
 - `boot <- boot.relimp(fit, b = 1000, type = c("lmg", "last", "first", "pratt"), rank = TRUE, diff = TRUE, rela = TRUE)`,
 - `booteval.relimp(boot)`,
 - `plot(booteval.relimp(boot,sort=TRUE))`
+
+as developed from the following references:
+
+- [Quick-R blog](http://www.statmethods.net/stats/regression.html)
+- [Rego, F., 2015, Multiple Regression Analysis in R - First Steps](https://rstudio-pubs-static.s3.amazonaws.com/65641_88a692252c6c4f2ab279d115e59e6767.html)
+- [Irawan, DE. and Gio, PU., 2016, R for beginners, online book, doi: 10.5281/zenodo.45628](https://github.com/dasaptaerwin/R-for-beginners)
+- [Classifying hot water chemistry: Application of MULTIVARIATE STATISTICS - R code](http://dx.doi.org/10.5281/zenodo.45629)
+- Gio, PU. and Irawan, DE., 2016, Belajar Statistika dengan R: disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
+- Gio, PU. and Rosmaini, E., 2016, Belajar Olah Data dengan SPSS, Minitab, R,  Microsoft Excel, EViews, LISREL, Amos, dan SmartPLS, disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
+
+
 
 # Publications
 
