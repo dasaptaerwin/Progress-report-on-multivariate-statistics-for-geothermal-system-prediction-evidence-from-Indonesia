@@ -1,1 +1,3 @@
 This document describes our progress. This research was funded by Institut Teknologi Bandung Research Grant 2016. We try to apply some multivariate statistical approach to build a clustering model of geothermal hydrochemistry dataset. Our progress is 90%: 420 dataset (from various sources), published a conference paper on International ITB Geothermal Workshop, and submitted a paper on ESSD Journal, awaiting technical review. Starting August 2016, we will finalize the code and drafting two more papers: another paper for a conference proceedings (ICMNS) and a paper for Nature’s Scientific Report.
+
+Keywords: multivariate statistics, geothermal, hydrochemistry
