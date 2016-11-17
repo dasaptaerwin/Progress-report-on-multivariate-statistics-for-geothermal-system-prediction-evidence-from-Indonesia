@@ -216,9 +216,10 @@ The following list contains publications built upon this research.
 
 Published:
 
-- Classifying Hot Water Chemistry: Application Of Multivariate Statistics
-Prihadi Sumintadireja, Dasapta Erwin Irawan, Yuano Rezky, Prana Ugiana Gio, Anggita Agustin, The 2016 International ITB Geothermal Workshop, March 2016. 
-- [Classifying hot water chemistry: Application of MULTIVARIATE STATISTICS - R code](http://dx.doi.org/10.5281/zenodo.45629)
+- Sumintadireja, P., **Irawan, DE.**, Herdianita, R., Rezky Y., Gio, PU., and Agustin A., 2016, Classifying Hot Water Chemistry: Application Of Multivariate Statistics, The 2016 International ITB Geothermal Workshop, March 2016. 
+- Sumintadireja, P., **Irawan, DE.**, Herdianita, R., Rezky Y., Gio, PU., and Agustin A., 2016, Classifying hot water chemistry: Application of MULTIVARIATE STATISTICS - data and R code submision, available at Zenodo repository, [DOI 10.5281/zenodo.45629](http://dx.doi.org/10.5281/zenodo.45629).
+- Irawan, DE., 2016, Multivariate statistics for hydrogeology: moving forward from "the present is the key to the past", 1st Annual PAAI conference, 17 November 2016, available at OSF platform, [DOI 10.17605/OSF.IO/HKS89](https://osf.io/hks89/).
+- Sumintadireja, P., **Irawan, DE.**, Herdianita, R., Rezky Y., Gio, PU., and Agustin A., 2016, Analisis multivariabel untuk mendeteksi pola data: kasus data hidrokimia air panas, Bappeda Provinsi Jawa Barat, Aug 2016.
 
 Draft:
 
