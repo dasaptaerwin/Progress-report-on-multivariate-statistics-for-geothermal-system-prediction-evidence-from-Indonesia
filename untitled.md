@@ -1,4 +1,4 @@
-gAuthors: 
+Authors: 
 - Prihadi Sumintadireja, 
 - Dasapta Erwin Irawan, 
 - N. Rina Herdianita, 
@@ -122,8 +122,6 @@ We used the following open source software for the analysis:
 # Methods
 
 Reverse method was applied in this research, on the basis of geological observation and classification for each data. We needed to know whether the statistical approach could reproduce the deterministic approach by geologists.
-
-The methods used in this research, Principal Component Analysis, Cluster Analysis, and Multiple Regression, are a very commonly used methods in the environmental sciences, but haven't frequently used in the geoscience field especially in Indonesia. Some examples are available online that have been used as references. \cite{irawan_hydrogeochemistry_2009} used it to classify water quality in volcanic system of Ciremai and other similar studies (\cite{goldsmith_hydrochemistry_2015}, \cite{agustin_application_2015} \cite{suk_characterization_1999})
 
 
 ## Data preparation
