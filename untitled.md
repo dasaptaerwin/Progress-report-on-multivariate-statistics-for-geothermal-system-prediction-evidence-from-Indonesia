@@ -123,7 +123,7 @@ We used the following open source software for the analysis:
 
 Reverse method was applied in this research, on the basis of geological observation and classification for each data. We needed to know whether the statistical approach could reproduce the deterministic approach by geologists. The following methods, principal component analysis (PCA), cluster analysis (CA), and multiple regression (MR), have been extensively used in all sciences, but we haven't seen many geoscience papers using them, especially in Indonesia.
 
-Examples have been set by 
+Examples have been set by \cite{irawan_hydrogeochemistry_2009}, \cite{putranto_hydrogeological_2016}, and \cite{agustin_application_2015} in some areas in Indonesia. More examples were also available by \cite{goldsmith_hydrochemistry_2015}, \cite{usunoff_multivariate_1989},  \cite{king_multivariate_2014}, and \cite{schwartz_slowflow_2014}
 
 
 ## Data preparation
@@ -134,7 +134,7 @@ In preparing the dataset, we used the following step:
 - saving the matrix in ascii format (`csv`),
 - labeling NAs for empty cells.
 
-We used R and `dplyr` package in this phase using the following functions: `group_by()`, `summarise()`, `mutate()`, `filter()`, `select()` and `arrange()`.
+We used R and `dplyr` package in this phase using the following functions: `group_by()`, `summarise()`, `mutate()`, `filter()`, `select()` and `arrange()` as given by the following examples
 
 ## Data plotting
 
