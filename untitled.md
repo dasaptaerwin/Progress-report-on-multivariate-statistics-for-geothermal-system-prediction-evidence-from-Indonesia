@@ -121,7 +121,9 @@ We used the following open source software for the analysis:
 
 # Methods
 
-Reverse method was applied in this research, on the basis of geological observation and classification for each data. We needed to know whether the statistical approach could reproduce the deterministic approach by geologists.
+Reverse method was applied in this research, on the basis of geological observation and classification for each data. We needed to know whether the statistical approach could reproduce the deterministic approach by geologists. The following methods, principal component analysis (PCA), cluster analysis (CA), and multiple regression (MR), have been extensively used in all sciences, but we haven't seen many geoscience papers using them, especially in Indonesia.
+
+Examples have been set by 
 
 
 ## Data preparation
@@ -146,7 +148,7 @@ Some statistical analyses were applied to identify structures with in the datase
 
 ### Cluster analysis
 
-Cluster analysis is a statistical technique to group a given population in to clusters based on the values of `Euclidean Distance` atau `Squared Euclidean Distance` (\cite{gio_prana_ugiana_belajar_2015}). It is advised to:
+Cluster analysis is a statistical technique to group a given population in to clusters based on the values of `Euclidean Distance` atau `Squared Euclidean Distance` (Gio and Irawan, 2016). It is advised to:
 
 - standardized the dataset prior to the analysis given the various units of the variables, 
 - deleting the outlier.
