@@ -224,7 +224,7 @@ Draft:
 - Multivariate statistics on geothermal hydrochemistry, Drafted for Earth Science System Data Journal, draft's available online on [Overleaf](https://www.overleaf.com/read/bqqyztttxcyq)
 
 
-# References
+# Related links
 
 - [Quick-R blog](http://www.statmethods.net/stats/regression.html)
 - [Rego, F., 2015, Multiple Regression Analysis in R - First Steps](https://rstudio-pubs-static.s3.amazonaws.com/65641_88a692252c6c4f2ab279d115e59e6767.html)
