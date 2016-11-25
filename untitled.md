@@ -222,7 +222,7 @@ The following list contains publications built upon this research.
 
 **Presentations in front of authorities**
 
-- Sumintadireja, P., **Irawan, DE.**, Herdianita, R., Rezky Y., Gio, PU., and Agustin A., 2016, Analisis multivariabel untuk mendeteksi pola data: kasus data hidrokimia air panas, Bappeda Provinsi Jawa Barat, Aug 2016.
+- Sumintadireja, P., **Irawan, DE.**, Herdianita, R., Rezky Y., Gio, PU., and Agustin A., 2016, Analisis multivariabel untuk mendeteksi pola data: kasus data hidrokimia air panas, Bappeda Provinsi Jawa Barat, Aug 2016, [link to slide](https://www.researchgate.net/publication/299579675_slides_CLASSIFYING_HOT_WATER_CHEMISTRY_APPLICATION_OF_MULTIVARIATE_STATISTICS).
 
 **Draft**
 
