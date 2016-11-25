@@ -1,4 +1,4 @@
-Authors: 
+gAuthors: 
 - Prihadi Sumintadireja, 
 - Dasapta Erwin Irawan, 
 - N. Rina Herdianita, 
@@ -8,7 +8,7 @@ Authors:
 
 # Abstract
 
-This document describes our progress. This research was funded by Institut Teknologi Bandung Research Grant 2016. We try to apply some multivariate statistical approach to build a clustering model of geothermal hydrochemistry dataset. Our progress is 100%: 416 dataset (from various sources), published a conference paper on International ITB Geothermal Workshop, and submitted a paper on ESSD Journal, awaiting technical review. Starting August 2016, we will finalize the code and drafting two more papers: another paper for a conference proceedings (ICMNS) and a paper for Nature’s Scientific Report.
+This document describes our progress. This research was funded by Institut Teknologi Bandung Research Grant 2016. We try to apply some multivariate statistical approach to build a clustering model of geothermal hydrochemistry dataset. Our progress is 90%: 420 dataset (from various sources), published a conference paper on International ITB Geothermal Workshop, and submitted a paper on ESSD Journal, awaiting technical review. Starting August 2016, we will finalize the code and drafting two more papers: another paper for a conference proceedings (ICMNS) and a paper for Nature’s Scientific Report.
 
 Keywords: multivariate statistics, geothermal, hydrochemistry
 
@@ -123,6 +123,8 @@ We used the following open source software for the analysis:
 
 Reverse method was applied in this research, on the basis of geological observation and classification for each data. We needed to know whether the statistical approach could reproduce the deterministic approach by geologists.
 
+The methods used in this research, Principal Component Analysis, Cluster Analysis, and Multiple Regression, are a very commonly used methods in the environmental sciences, but haven't frequently used in the geoscience field especially in Indonesia. Some examples are available online that have been used as references. \cite{irawan_hydrogeochemistry_2009} used it to classify water quality in volcanic system of Ciremai and other similar studies (\cite{goldsmith_hydrochemistry_2015}, \cite{agustin_application_2015} \cite{suk_characterization_1999})
+
 
 ## Data preparation
 
@@ -146,10 +148,10 @@ Some statistical analyses were applied to identify structures with in the datase
 
 ### Cluster analysis
 
-Cluster analysis is a statistical technique to group a given population in to clusters based on the values of `Euclidean Distance` atau `Squared Euclidean Distance` (Gio and Irawan, 2016). It is advised to:
+Cluster analysis is a statistical technique to group a given population in to clusters based on the values of `Euclidean Distance` atau `Squared Euclidean Distance` (\cite{gio_prana_ugiana_belajar_2015}). It is advised to:
 
 - standardized the dataset prior to the analysis given the various units of the variables, 
-- deleting the outlier prior the analysis.
+- deleting the outlier.
 
 There are two famous clustering procedures: hierarchical and k-means clustering. Both are used in the analysis.
 
@@ -180,6 +182,7 @@ We used the following code `fit <- princomp(mydata, cor=TRUE), summary(fit), loa
 ### Multiple regression
 
 Multiple linear regression is a statictical technique in form of linear equation, describing relationships between dependent and independent variable. In the math formula, we also can identify dependant variables contributing major control to the dataset and less control. The linear equation then will be used in predictions (Cite: Ugi and Irawan, 2016).  
+
 
 We used the following code,
 
@@ -218,34 +221,22 @@ Published:
 
 Draft:
 
-- Multivariate statistics on geothermal hydrochemistry, a paper draft available online on [Overleaf](https://www.overleaf.com/read/bqqyztttxcyq)
+- Multivariate statistics on geothermal hydrochemistry, Drafted for Earth Science System Data Journal, draft's available online on [Overleaf](https://www.overleaf.com/read/bqqyztttxcyq)
 
 
 # References
 
-[Quick-R blog](http://www.statmethods.net/stats/regression.html).
-
-[Rego, F., 2015, Multiple Regression Analysis in R - First Steps](https://rstudio-pubs-static.s3.amazonaws.com/65641_88a692252c6c4f2ab279d115e59e6767.html).
-
-[Irawan, DE. and Gio, PU., 2016, R for beginners, online book, doi: 10.5281/zenodo.45628](https://github.com/dasaptaerwin/R-for-beginners).
-
-[Classifying hot water chemistry: Application of MULTIVARIATE STATISTICS - R code](http://dx.doi.org/10.5281/zenodo.45629).
-
-Gio, PU. and Irawan, DE., 2016, Belajar Statistika dengan R: disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
-
-Gio, PU. and Rosmaini, E., 2016, Belajar Olah Data dengan SPSS, Minitab, R,  Microsoft Excel, EViews, LISREL, Amos, dan SmartPLS, disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
-
-Classifying Hot Water Chemistry: Application Of Multivariate Statistics
+- [Quick-R blog](http://www.statmethods.net/stats/regression.html)
+- [Rego, F., 2015, Multiple Regression Analysis in R - First Steps](https://rstudio-pubs-static.s3.amazonaws.com/65641_88a692252c6c4f2ab279d115e59e6767.html)
+- [Irawan, DE. and Gio, PU., 2016, R for beginners, online book, doi: 10.5281/zenodo.45628](https://github.com/dasaptaerwin/R-for-beginners)
+- [Classifying hot water chemistry: Application of MULTIVARIATE STATISTICS - R code](http://dx.doi.org/10.5281/zenodo.45629)
+- Gio, PU. and Irawan, DE., 2016, Belajar Statistika dengan R: disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
+- Gio, PU. and Rosmaini, E., 2016, Belajar Olah Data dengan SPSS, Minitab, R,  Microsoft Excel, EViews, LISREL, Amos, dan SmartPLS, disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
+- Classifying Hot Water Chemistry: Application Of Multivariate Statistics
 Prihadi Sumintadireja, Dasapta Erwin Irawan, Yuano Rezky, Prana Ugiana Gio, Anggita Agustin, The 2016 International ITB Geothermal Workshop, March 2016. 
-
-[Analytics Vidhya: Practical Guide to Principal Component Analysis (PCA) in R & Python](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/).
-
-[Coghlan, A., Little Book of R for Multivariate Analysis, Sanger Institute , accessed April 2016](http://little-book-of-r-for-multivariate-analysis.readthedocs.io/en/latest/index.html).
-
-[Holand, SM., 2008, Principal components analysis (PCA) in R](www2.stat.unibo.it/montanari/Didattica/.../PCA_lab1.pdf).
-
-[STHDA: Cluster analysis, accessed April 2016](http://www.sthda.com/english/wiki/cluster-analysis-in-r-unsupervised-machine-learning).
-
-[Ecology lab Univ Montana SU: Cluster analysis tutorial, accessed April 2016](http://ecology.msu.montana.edu/labdsv/R/labs/lab13/lab13.html).
-
-[Stat lab Univ Berkeley: Cluster analysis tutorial, accessed April 2016](http://www.stat.berkeley.edu/~s133/Cluster2a.html).
+- [Analytics Vidhya: Practical Guide to Principal Component Analysis (PCA) in R & Python](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
+- [Coghlan, A., Little Book of R for Multivariate Analysis, Sanger Institute , accessed April 2016](http://little-book-of-r-for-multivariate-analysis.readthedocs.io/en/latest/index.html)
+- [Holand, SM., 2008, Principal components analysis (PCA) in R](www2.stat.unibo.it/montanari/Didattica/.../PCA_lab1.pdf)
+- [STHDA: Cluster analysis, accessed April 2016](http://www.sthda.com/english/wiki/cluster-analysis-in-r-unsupervised-machine-learning)
+- [Ecology lab Univ Montana SU: Cluster analysis tutorial, accessed April 2016](http://ecology.msu.montana.edu/labdsv/R/labs/lab13/lab13.html)
+- [Stat lab Univ Berkeley: Cluster analysis tutorial, accessed April 2016](http://www.stat.berkeley.edu/~s133/Cluster2a.html)
