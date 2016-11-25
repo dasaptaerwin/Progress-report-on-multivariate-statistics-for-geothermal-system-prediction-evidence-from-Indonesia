@@ -17,9 +17,7 @@ Keywords: multivariate statistics, geothermal, hydrochemistry
 
 The following project were set up to try out the application of R to help us classify hot water samples based on their hydrochemical properties. The samples used in this activity are from all over Indonesia. But we try to choose locations with distinct geological character. We need to find out if this open source statistical package can bring out the uniqueness and use it to classify the water samples.
 
-We collect the samples from direct field collection and from other similar geothermal researches. We are very thankful to fellow researchers who have been allowing us to re-use their data in the scope of this research. We will commit to the citation agreements upon the dataset transfer.
-
-The output of this research will also be published as scientific papers on several media. The first paper have already published in the 2016 ITB Geothermal Workshop last month.
+We collect the samples from direct field collection and from other similar geothermal researches. We are very thankful to fellow researchers who have been allowing us to re-use their data in the scope of this research. We will commit to the citation agreements upon the dataset transfer. The output of this research will also be published as scientific papers on several media. The first paper have already published in the 2016 ITB Geothermal Workshop last month.
 
 The core team of the research is:
 
@@ -29,20 +27,18 @@ The core team of the research is:
 - Yuanno Rezky, ST., MT (EBTKE counterpart)
 - Anggita Agustin (student, master, Groundwater eng ITB)
 - Ali Lukman (student, master, Geology, ITB)
-- Fatkhurrokhman (student, undergraduate, Geology, ITB)
 
 Contributors:
 
 - Prana Ugi Gio (Universitas Sumatra Utara) for keen support on statistical theory
-- to be added accordingly
+- Fatkhurrokhman (student, undergraduate, Geology, ITB)
+- Fithriyani Fauzziah (student, master, Groundwater Engineering, ITB)
 
 Additional contributors will be added as we try to apply open science principles in this research. All materials and resources are available on [Open Science Framework server](http://osf.io/wbnz3).
 
-We welcome any contributions, constructive comments and input.
-
 # Objectives
 
-The goals of this research are to reproduce deterministic observation and classification by field geologists using multivariate statistical approaches.
+The goals of this research are to reproduce deterministic observation and classification by field geologists using multivariate statistical approaches. Hopefully we can analyze new dataset using the following model based on training dataset.
 
 # Value of the research
 
@@ -61,13 +57,13 @@ The following is the value of the dataset from this research:
 
 ## Data sources
 
-We have gathered 420 dataset from various sources, collected from:
+We have gathered 416 dataset from various sources, collected from (see [data table](https://www.authorea.com/users/87737/articles/120109/master/file/data.csv) and [data descriptor](https://www.authorea.com/users/87737/articles/120109/master/file/datadescriptor.csv):
 
 - Geology ITB
 - Center of Geological Research and Development
 - Other sources and own testing for verification (specifically for dataset from West Java Province)
 
-The preliminary result is a dataset with 420 rows and 66 columns. We managed to collect hot water samples consists of:
+The preliminary result is a dataset with 416 rows and 66 columns. We managed to collect hot water samples consists of:
 
 - major elements
 - trace elements
@@ -79,20 +75,20 @@ We identified each report that we had in the library, as follows:
 - Dirasutisna, S. (2004)
 - Suparman, dkk. (1999)
 - Kusnadi, D. (2002)
-- Dedi K (year unknown)
-- Euis (year unknown)
-- Fauziyyah dkk (year unknown)
-- Haq dkk (year unknown)
-- Prabowo dkk (year unknown)
-- Alfiandy dkk (year unknown)
-- Wahyudi dkk (year unknown)
+- Dedi K (2016)
+- Euis (2016)
+- Fauziyyah et al. (2016)
+- Haq et al. (2016)
+- Prabowo et al. (2016)
+- Alfiandy et al. (2016)
+- Wahyudi et al. (2016)
 - Phuong dkk, 2005)
 - Emianto dan Aribowo (2011)
 - Nukman (2009)
 - Nurohman dan Aribowo (2012)
-- Iqbal dkk (year unknown)
+- Iqbal et al. (2016)
 
-However, not all of the samples have all the measurements, therefore we curated the dataset very carefully. Many blank cells will be labeled with `NA`. The complete dataset is attached in the `dataset folder`.
+However, not all of the samples have all the measurements, therefore we curated the dataset very carefully. Many blank cells will be labeled with `NA`. The complete dataset is attached in the `dataset folder`. However we had several drawbacks in collecting the coordinates of the points. 
 
 
 ## Data management
@@ -101,17 +97,17 @@ Dataset is the most important part in this research. It affects how we see the d
 
 ### Data consolidation and treatment
 
-The final dataset was consolidated from various sources. Each source contained different kind of measurements. Thus we had a various size of data matrix. Therefore we appended the matrix size piece by piece to incorporate all data matrices. The final dataset and variable descriptor can be seen in the repository (please refer to `Data_geothermal_July2016.ods`).
+The final dataset was consolidated from various sources. Each source contained different kind of measurements. Thus we had a various size of data matrix. Therefore we appended the matrix size piece by piece to incorporate all data matrices. The final dataset and variable descriptor can be seen in the repository (please refer to `data.csv` and `datadescriptor.csv`).
 
 ### Data repository
 
-Every data set is accessible from the [OSF repository](http://osf.io/wbnz3). Final link may be changed and doi will be added as soon as it is registered) and can be searched by title, topic and field location. Interactive map will be available soon using QGIS Cloud System. 
+Every data set is accessible from the [OSF repository](http://osf.io/wbnz3). Final link may be changed and doi will be added as soon as it is registered) and can be searched by title, topic and field location. Interactive map will be available soon using QGIS Cloud System, and also we have to deal with the coordinates problem. We tried to set the points based on the geographical indications written in the original reports. 
 
 ### Data use/sharing policy
 
-All resources are released to the public in CC-BY license. It may be freely copied, distributed, edited, remixed, and built upon under the condition that you give acknowledgement as described below:
+All resources are released to the public in CC-BY license. It may be freely copied, distributed, edited, remixed, and built upon under the condition that you give acknowledgment as described below:
 
-- Give proper acknowledgement. Publications, models and data products that make use of these datasets must include proper acknowledgement, including citing datasets in a similar way to citing a journal article (i.e. author, title, year of publication, edition or version, and URL or DOI access information. (See http://www.datacite.org/whycitedata).
+- Give proper acknowledgement. Publications, models and data products that make use of these datasets must include proper acknowledgement, including citing datasets in a similar way to citing a journal article (i.e. author, title, year of publication, edition or version, and URL or DOI access information. (See [Why cite data](http://www.datacite.org/whycitedata)).
 - Let us know how you will use the data. The dataset creators would appreciate hearing of any plans to use the dataset. Consider consultation or collaboration with dataset creators.
 
 ### Software
@@ -119,7 +115,7 @@ All resources are released to the public in CC-BY license. It may be freely copi
 We used the following open source software for the analysis:
 
 - statistical programming: [R](http://cran.r-project.org) and [R Studio](www.rstudio.com)
-- writing tools: [Overleaf](www.overleaf.com), [Pandoc converter](www.pandoc.org)
+- writing tools: [Authorea](www.authorea.com), [Pandoc converter](www.pandoc.org)
 - writing format: [R markdown](http://rmarkdown.rstudio.com) and [Latex](http://latex-project.org)
 
 
