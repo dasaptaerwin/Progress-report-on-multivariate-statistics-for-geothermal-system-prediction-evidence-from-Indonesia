@@ -134,7 +134,7 @@ In preparing the dataset, we used the following step:
 - saving the matrix in ascii format (`csv`),
 - labeling NAs for empty cells.
 
-We used R and `dplyr` package in this phase using the following functions: `group_by()`, `summarise()`, `mutate()`, `filter()`, `select()` and `arrange()` as given by the following examples
+We used R and `dplyr` package in this phase using the following functions: `group_by()`, `summarise()`, `mutate()`, `filter()`, `select()` and `arrange()` as given by the following examples \cite{coghlan_little_????}, \cite{le_factominer:_2008}, and \cite{wilkinson_multivariate_2014}.
 
 ## Data plotting
 
