@@ -8,10 +8,15 @@ Authors:
 
 # Abstract
 
-This document describes our progress. This research was funded by Institut Teknologi Bandung Research Grant 2016. We try to apply some multivariate statistical approach to build a clustering model of geothermal hydrochemistry dataset. Our progress is 100% with 416 dataset (from various sources) have been tabulated and analyzed. Several outputs have been produced from this research: a conference paper on International ITB Geothermal Workshop, a talk given to the authorities of West Java Province, and a draft to be submitted. 
+This document describes our progress. This research was funded by Institut Teknologi Bandung Research Grant 2016. We try to apply some multivariate statistical approach to build a clustering model of geothermal hydrochemistry dataset. Our progress is 100%: 416 dataset compiled from various sources. The objectives is to try out a machine learning method to learn the geothermal system, volcanic or non-volcanic system, based on geochemical composition of hot water samples as trained dataset using open source application. If we could come up with a certain model, then for the next step, we could predict the geothermal system of new samples. 
+
+We used [R programming](http://cran.at.r-project.org/) (and [RStudio IDE](rstudio.com)) and multivariate analysis packages to try to extract the somewhat "hidden" pattern in the data set. We used principal component analysis, cluster analysis, and the multiple regression model. The codes was developed based on the free tutorials available. We provide the codes and data set available to be freely downloaded using [Open Science Framework server](osf.io/wbnz3) (we put [CC-BY](https://creativecommons.org/licenses/by/2.0/) license) in order to invite more participation from public to improve this work.
+
+Based on our results, we could see the separation of water samples into two geothermal systems, volcanic and non-volcanic based systems. However we could also find some samples fall in the middle of both systems. The data shows that although the geology has major control to the system, but the chemical stability could show a hybrid characteristics. 
+
+We have produced some output in a sense of blogs, slide decks presented in front of the Bappeda West Java, two proceeding papers (one was for the IIGW 2016 and one is sent as abstract to the IIGW 2017), a draft paper will be submitted to [ScienceOpen](ScienceOpen.com) Research Journal. We also provide the full report available on [Authorea](https://goo.gl/CVkrfI).
 
 Keywords: multivariate statistics, geothermal, hydrochemistry
-
 
 # Introduction
 
