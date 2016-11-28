@@ -4,6 +4,6 @@ We used [R programming](http://cran.at.r-project.org/) (and [RStudio IDE](rstudi
 
 Based on our results, we could see the separation of water samples into two geothermal systems, volcanic and non-volcanic based systems. However we could also find some samples fall in the middle of both systems. The data shows that although the geology has major control to the system, but the chemical stability could show a hybrid characteristics. 
 
-We have produced some output in a sense of blogs, slide decks presented in front of the Bappeda West Java, two proceeding papers (one was for the IIGW 2016 and one is sent as abstract to the IIGW 2017), a draft paper will be submitted to [ScienceOpen](ScienceOpen.com) Research Journal.
+We have produced some output in a sense of blogs, slide decks presented in front of the Bappeda West Java, two proceeding papers (one was for the IIGW 2016 and one is sent as abstract to the IIGW 2017), a draft paper will be submitted to [ScienceOpen](ScienceOpen.com) Research Journal. We also provide the full report available on [Authorea](https://goo.gl/CVkrfI).
 
 Keywords: multivariate statistics, geothermal, hydrochemistry
