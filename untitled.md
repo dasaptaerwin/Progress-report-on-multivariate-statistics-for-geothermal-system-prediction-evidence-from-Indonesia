@@ -102,7 +102,7 @@ Dataset is the most important part in this research. It affects how we see the d
 
 ### Data consolidation and treatment
 
-The final dataset was consolidated from various sources. Each source contained different kind of measurements. Thus we had a various size of data matrix. Therefore we appended the matrix size piece by piece to incorporate all data matrices. The final dataset and variable descriptor can be seen in the repository (please refer to `data.csv` and `datadescriptor.csv`).
+The final dataset was consolidated from various sources. Each source contained different kind of measurements. Thus we had a various size of data matrix. Therefore we appended the matrix size piece by piece to incorporate all data matrices. The final dataset and variable descriptor can be seen in the repository (please refer to `data.csv` and `datadescriptor.csv`). This step is the hardest since we've got many data from various sources, mainly in spreadsheet and pdf formats, with also various typing format, eg: different decimal separator, etc. So we have to work on that problems before we could use it in our analysis. 
 
 ### Data repository
 
