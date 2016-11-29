@@ -39,7 +39,7 @@ Contributors:
 - Fatkhurrokhman (student, undergraduate, Geology, ITB)
 - Fithriyani Fauzziah (student, master, Groundwater Engineering, ITB)
 
-Additional contributors will be added as we try to apply open science principles in this research. All materials and resources are available on [Open Science Framework server](http://osf.io/wbnz3).
+Additional contributors will be added as we try to apply open science principles in this research. All materials and resources are available on [Open Science Framework server](http://osf.io/wbnz3) and [Github](https://github.com/dasaptaerwin/Progress-report-on-multivariate-statistics-for-geothermal-system-prediction-evidence-from-Indonesia).
 
 # Objectives
 
@@ -62,7 +62,7 @@ The following is the value of the dataset from this research:
 
 ## Data sources
 
-We have gathered 416 dataset from various sources, collected from (see [data table](https://www.authorea.com/users/87737/articles/120109/master/file/data.csv) and [data descriptor](https://www.authorea.com/users/87737/articles/120109/master/file/datadescriptor.csv):
+We have gathered 416 dataset from various sources, collected from (see [data table](https://www.authorea.com/users/87737/articles/120109/master/file/data.csv) and [data descriptor](https://www.authorea.com/users/87737/articles/120109/master/file/datadescriptor.csv)):
 
 - Geology ITB
 - Center of Geological Research and Development
