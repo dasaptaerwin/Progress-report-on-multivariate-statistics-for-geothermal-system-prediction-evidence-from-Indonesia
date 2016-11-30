@@ -188,6 +188,7 @@ The following image are some of the plots produced from the analysis.
 
 
 
+
 ### Multiple regression
 
 Multiple linear regression is a statictical technique in form of linear equation, describing relationships between dependent and independent variable. In the math formula, we also can identify dependant variables contributing major control to the dataset and less control. The linear equation then will be used in predictions (Cite: Ugi and Irawan, 2016).  
