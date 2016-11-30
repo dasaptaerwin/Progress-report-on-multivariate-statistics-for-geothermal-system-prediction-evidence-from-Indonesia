@@ -197,7 +197,6 @@ The following image are some of the plots produced from the analysis.
 
 Multiple linear regression is a statictical technique in form of linear equation, describing relationships between dependent and independent variable. In the math formula, we also can identify dependant variables contributing major control to the dataset and less control. The linear equation then will be used in predictions (Cite: Ugi and Irawan, 2016).  
 
-
 We used the following code,
 
 - `fit <- lm(y ~ x1 + x2 + x3, data=mydata)`
@@ -222,6 +221,7 @@ as developed from the following references:
 
 The following figure is the multiple regression tree from the analysis.
 
+- [pairs plot1](https://www.authorea.com/users/87737/articles/120109/master/file/figures/pairs.png) and [pairs plot2](https://www.authorea.com/users/87737/articles/120109/master/file/figures/pairs2.png);
 - [multiple regression tree](https://www.authorea.com/users/87737/articles/120109/master/file/figures/tree.png)
 
 # Research outputs
