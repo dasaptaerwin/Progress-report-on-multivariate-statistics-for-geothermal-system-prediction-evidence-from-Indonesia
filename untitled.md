@@ -184,6 +184,10 @@ We used the following code `fit <- princomp(mydata, cor=TRUE), summary(fit), loa
 - [Coghlan, A., Little Book of R for Multivariate Analysis, Sanger Institute , accessed April 2016](http://little-book-of-r-for-multivariate-analysis.readthedocs.io/en/latest/index.html)
 - [Holand, SM., 2008, Principal components analysis (PCA) in R](www2.stat.unibo.it/montanari/Didattica/.../PCA_lab1.pdf)
 
+The following image are some of the plots produced from the analysis. 
+
+
+
 ### Multiple regression
 
 Multiple linear regression is a statictical technique in form of linear equation, describing relationships between dependent and independent variable. In the math formula, we also can identify dependant variables contributing major control to the dataset and less control. The linear equation then will be used in predictions (Cite: Ugi and Irawan, 2016).  
