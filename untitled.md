@@ -186,7 +186,7 @@ We used the following code `fit <- princomp(mydata, cor=TRUE), summary(fit), loa
 
 The following image are some of the plots produced from the analysis. 
 
-
+  
 
 
 ### Multiple regression
