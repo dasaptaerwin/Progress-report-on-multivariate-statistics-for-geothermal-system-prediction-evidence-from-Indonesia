@@ -169,6 +169,10 @@ The code was based on the following resources:
 - [Ecology lab Univ Montana SU: Cluster analysis tutorial, accessed April 2016](http://ecology.msu.montana.edu/labdsv/R/labs/lab13/lab13.html)
 - [Stat lab Univ Berkeley: Cluster analysis tutorial, accessed April 2016](http://www.stat.berkeley.edu/~s133/Cluster2a.html)
 
+Below is the cluster analysis using three methods.
+
+- [Cluster plot](https://www.authorea.com/users/87737/articles/120109/master/file/figures/cluster.png)
+
 ### Principal component analysis
 
 Principal component analysis (PCA) is generally used to reduce the number of original variables in to sets of new variables. Most people would also use this technique to resize a data matrix. PCA model tries to produce the minimum number of new variables which can explain maximum variance at the same time. This is considered a semi-supervised machine learning model since we still have to determine how many maximum number of new variables (also called principal components/PC's), usually based on the `scree plot` (cite UgiIrawan). Two results will be produced by this method: 
@@ -184,9 +188,9 @@ We used the following code `fit <- princomp(mydata, cor=TRUE), summary(fit), loa
 - [Coghlan, A., Little Book of R for Multivariate Analysis, Sanger Institute , accessed April 2016](http://little-book-of-r-for-multivariate-analysis.readthedocs.io/en/latest/index.html)
 - [Holand, SM., 2008, Principal components analysis (PCA) in R](www2.stat.unibo.it/montanari/Didattica/.../PCA_lab1.pdf)
 
-The following image are some of the plots produced from the analysis. 
+The following image are some of the plots produced from the analysis.
 
-  
+- [pca plot](https://www.authorea.com/users/87737/articles/120109/master/file/figures/pca.png)
 
 
 ### Multiple regression
@@ -216,7 +220,9 @@ as developed from the following references:
 - Gio, PU. and Irawan, DE., 2016, Belajar Statistika dengan R: disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
 - Gio, PU. and Rosmaini, E., 2016, Belajar Olah Data dengan SPSS, Minitab, R,  Microsoft Excel, EViews, LISREL, Amos, dan SmartPLS, disertai beberapa contoh perhitungan manual, USU Press, ISBN 979 458 801 6.
 
+The following figure is the multiple regression tree from the analysis.
 
+- [multiple regression tree](https://www.authorea.com/users/87737/articles/120109/master/file/figures/tree.png)
 
 # Research outputs
 
